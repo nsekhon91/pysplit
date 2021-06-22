@@ -1,0 +1,12 @@
+# Clone dockerfile from github
+> git clone https://github.com/nsekhon91/pysplit.git
+> cd pysplit
+
+# Build docker image
+> docker build -t pysplit . 
+
+# Run your image and enter into it 
+> docker run -it pysplit /bin/sh
+
+# Run PySplit testing
+
